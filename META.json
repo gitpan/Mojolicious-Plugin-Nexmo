@@ -1,10 +1,10 @@
 {
-   "abstract" : "Asynchronous (and synchronous) SMS and TTS (Text To Speech) sending",
+   "abstract" : "Asynchronous (and synchronous) SMS and TTS (Text To Speech) sending with L<Nexmo|https://www.nexmo.com/> provider.",
    "author" : [
       "Andrey Khozov <avkhozov@googlemail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.131560",
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "unknown"
    ],
@@ -32,7 +32,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Mojolicious" : "4"
+            "Mojolicious" : "5"
          }
       }
    },
@@ -48,5 +48,5 @@
          "url" : "http://github.com/avkhozov/Mojolicious-Plugin-Nexmo"
       }
    },
-   "version" : "0.90"
+   "version" : "0.91"
 }
